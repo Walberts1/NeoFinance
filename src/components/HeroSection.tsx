@@ -40,7 +40,7 @@ const HeroSection = () => {
             <Button variant="cta" size="xl" className="w-full sm:w-auto animate-float">
               Get Funded
             </Button>
-            <Button variant="outline-hero" size="xl" className="w-full sm:w-auto">
+            <Button variant="cta" size="xl" className="w-full sm:w-auto">
               Invest Now
             </Button>
           </div>
