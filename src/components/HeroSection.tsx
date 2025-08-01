@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-entrepreneurs.jpg";
 
@@ -35,7 +36,7 @@ const HeroSection = () => {
           </p>
           
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
             <Button variant="cta" size="xl" className="w-full sm:w-auto animate-float">
               Get Funded
             </Button>
@@ -44,11 +45,8 @@ const HeroSection = () => {
             </Button>
           </div>
           
-          {/* App Promo */}
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 max-w-2xl mx-auto border border-white/20">
-            <p className="text-lg md:text-xl mb-4 text-blue-light">
-              Experience our NeoFin app — smarter funding, anywhere, anytime.
-            </p>
+          {/* Download App Button */}
+          <div className="mb-16">
             <Button variant="hero" size="lg">
               Download App
             </Button>
