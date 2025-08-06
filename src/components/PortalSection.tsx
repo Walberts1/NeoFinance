@@ -54,7 +54,7 @@ const PortalSection = () => {
           
           {/* Funders Portal */}
           <Card className="group hover:shadow-2xl transition-all duration-500 border-2 hover:border-aqua-accent/50 bg-gradient-to-br from-background to-muted/30">
-            <CardContent className="p-8 md:p-12 text-center">
+            <CardContent className="p-8 md:p-12 text-center bg-green-100">
               <div className="mb-8">
                 <div className="w-20 h-20 mx-auto mb-6 bg-gradient-secondary rounded-full flex items-center justify-center group-hover:animate-pulse-glow">
                   <Target className="w-10 h-10 text-navy-deep" />
