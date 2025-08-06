@@ -44,13 +44,6 @@ const HeroSection = () => {
               Invest Now
             </Button>
           </div>
-          
-          {/* Download App Button */}
-          <div className="mb-16">
-            <Button variant="hero" size="lg">
-              Download App
-            </Button>
-          </div>
         </div>
       </div>
       
