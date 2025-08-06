@@ -18,7 +18,7 @@ const PortalSection = () => {
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {/* Founders Portal */}
           <Card className="group hover:shadow-2xl transition-all duration-500 border-2 hover:border-blue-violet/50 bg-gradient-to-br from-background to-muted/30">
-            <CardContent className="p-8 md:p-12 text-center bg-blue-50/30">
+            <CardContent className="p-8 md:p-12 text-center bg-blue-100">
               <div className="mb-8">
                 <div className="w-20 h-20 mx-auto mb-6 bg-gradient-primary rounded-full flex items-center justify-center group-hover:animate-pulse-glow">
                   <TrendingUp className="w-10 h-10 text-white" />
